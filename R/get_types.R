@@ -185,7 +185,7 @@ print.summary.causal_types <- function(x, ...){
 	cat(paste("\n Total number of causal types in model = ", length(x$types)))
 	} else if(output_type == "numeric"){
 		print(x$types)
-	} else{
+	} else {
 		print(x)
 	}
 
