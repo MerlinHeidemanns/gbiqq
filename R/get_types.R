@@ -188,8 +188,6 @@ print.summary.causal_types <- function(x, ...){
 	} else {
 		print(x)
 	}
-
-
 }
 
 
